@@ -52,8 +52,8 @@ npm run dev
 
 | Method | Endpoint                   | Description               |
 | ------ | -------------------------- | ------------------------- |
-| POST   | `/notification`            | Create a new notification |
-| GET    | `/users/:id/notifications` | Get notification by ID    |
+| POST   | `/api/notification`            | Create a new notification |
+| GET    | `/api/users/:id/notifications` | Get notification by ID    |
 
 ## 📦 Notification Types
 
@@ -83,7 +83,7 @@ TWILIO_PHONE_NUMBER=
 
 Here are examples of how to interact with the notification service API:
 
-### ✉️ Sending an Email Notification (`POST /notifications`)
+### ✉️ Sending an Email Notification (`POST /api/notifications`)
 
 **Request Body (JSON):**
 
